@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.main-card-container{
+    display: flex;
+    grid-template-columns: repeat(3, minmax(800px, 500px));
+    grid-gap: 50px;
+    justify-content: space-around;
+        
+}
+
+.card-container {
+    margin: 25px auto 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(75, 75, 75, 0.07);
+    z-index: 1;
+}
+
+.card-body {
+    display: inline-block;
+}
+
+@media (min-width :580px ){
+    .main-card-container {
+        flex-direction: row;
+        
+    }
+    .card-container{
+        align-items:center;
+        position:relative;
+        justify-content: flex-start;
+        flex: 1;
+        grid-template-columns: 0.5fr;
+    }
+}

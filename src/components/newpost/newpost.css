@@ -1,0 +1,42 @@
+.form_btn{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.newpost_btn{
+    padding: 1rem 2rem;
+    margin-right:1rem;
+    font:inherit;
+    cursor: pointer;
+    border-radius: 12px;
+    color: antiquewhite;
+    background-color: gray;
+}
+
+.newpost button button:hover,
+.newpost button button:active{
+    background-color: gray;
+    border-color: black;
+}
+
+.newpost button.alternative {
+    color:gray;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.newpost button.alternative:hover,
+.newpost button.alternative:active{
+    background-color: rgb(186, 132, 236);
+}
+
+.newpost{
+    background-color: rgb(204, 166, 240);
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width:95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px black;
+}
